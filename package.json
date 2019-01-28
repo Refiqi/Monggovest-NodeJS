@@ -1,0 +1,31 @@
+{
+  "name": "monggovest-nodejs",
+  "version": "1.0.0",
+  "description": "Web Investing Apps with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Refiqi/Monggovest-NodeJS.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "API"
+  ],
+  "author": "Refiqi Muhamad Fadila",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Refiqi/Monggovest-NodeJS/issues"
+  },
+  "homepage": "https://github.com/Refiqi/Monggovest-NodeJS#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
