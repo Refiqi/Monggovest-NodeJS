@@ -14,6 +14,12 @@ mongoose.connect('mongodb://localhost:27017/monggovest', {useNewUrlParser: true}
 });
 
 
+const product = require('./routes/product');
+const auth = require('./routes/auth');
+
+app.use('/api/v1/product', product);
+app.use('/api/v1/auth', auth);
+
 const port = process.env.PORT || 5000;
 app.listen(port, (err) =>{
     if (err) throw err;
